@@ -42,6 +42,7 @@ include "action.php";
                     <input type="submit" value="Submit">
                 </div>
             </form>
+            <h4> *User Level determines administrator priviliges, where 0 is admin and 1 is assistant </h4>
         </div>
     </div>
 </body>

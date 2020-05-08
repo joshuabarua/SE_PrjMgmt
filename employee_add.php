@@ -30,7 +30,7 @@
                 </div>
                 <div class="form-item-group">
                     <label class="form-item-title">Level :</label>
-                    <input class="form-item-input" name="level" type="number"  required />
+                    <input class="form-item-input" name="level" type="number" min="0" max="1"  required />
                 </div>
                 <div class="form-item-group">
                     <label class="form-item-title">&nbsp</label>
@@ -38,6 +38,7 @@
                     <input type="submit" value="Submit" class="btn btn-">
                 </div>
             </form>
+            <h4> *User Level determines administrator priviliges, where 0 is admin and 1 is assistant </h4>
         </div>
     </div>
 </body>
